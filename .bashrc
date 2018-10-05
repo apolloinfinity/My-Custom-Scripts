@@ -2,7 +2,7 @@
 alias home='cd ~'
 alias ..='cd ..'
 alias rm='rm -i'
-alias startmongo='mongod --auth --port 27017 --dbpath /home/jr/MonDB/'
+alias startmongo='mongod --auth --port 27017 --dbpath /path/to/yourdb/'
 
 # Making the shell show what branch the current branch is. 
 parse_git_branch() {
