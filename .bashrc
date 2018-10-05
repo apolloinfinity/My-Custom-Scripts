@@ -1,6 +1,7 @@
 # Custom Aliases
 alias home='cd ~'
 alias ..='cd ..'
+alias ...='cd ../..'
 alias rm='rm -i'
 alias startmongo='mongod --auth --port 27017 --dbpath /path/to/yourdb/'
 
