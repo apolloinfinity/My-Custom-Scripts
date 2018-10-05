@@ -4,8 +4,16 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias rm='rm -i'
 alias startmongo='mongod --auth --port 27017 --dbpath /path/to/yourdb/'
+alias bashreload='source ~/.bash_profile && echo "File .bash_profile reloaded correctly" || echo "Syntax error, could not import the file"'
 
-# Making the shell show what branch the current branch is. 
+# Custom Functions
+
+# Creates a directory and then changes into them
+mcd () {
+    mkdir -p $1
+    cd $1
+}
+
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
