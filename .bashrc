@@ -30,10 +30,3 @@ export NVM_DIR="$HOME/.nvm"
 # added by Anaconda3 installer
 export PATH="/home/jr/anaconda3/bin:$PATH"
 
-# Custom Aliases
-alias home='cd ~'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias rm='rm -i'
-alias startmongo='mongod --auth --port 27017 --dbpath /path/to/yourdb/'
-alias bashreload='source ~/.bash_profile && echo "File .bash_profile reloaded correctly" || echo "Syntax error, could not import the file"'
