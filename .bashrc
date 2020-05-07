@@ -1,3 +1,7 @@
+# For Windows using Git Bash.
+# Without this alias, Git Bash on windows hangs and becomes non-responsive.
+alias python='winpty python.exe'
+
 # Custom Aliases
 alias home='cd ~'
 alias ..='cd ..'
